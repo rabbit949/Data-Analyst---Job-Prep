@@ -2,7 +2,7 @@
 
 Welcome to the **Data Analyst - Job Prep** repository! 🚀
 
-This repository is designed to help aspiring data analysts prepare for job roles by mastering SQL and Python for data analysis. It includes step-by-step tutorials, code examples, and comprehensive notes to guide you through practical use cases and foundational concepts.
+This repository is a space where I document my journey of learning SQL and Python for data analysis. While I’m learning and growing, I aim to share my progress, insights, and resources with others who are also preparing for data analyst roles. Together, we can learn, practice, and master the essential skills needed to succeed in the field of data analysis.
 
 ---
 
@@ -11,7 +11,7 @@ This repository is designed to help aspiring data analysts prepare for job roles
 The repository is organized as follows:
 
 ### **1. SQL for Data Analysis**
-- **Folder:** `sql_data_analysis/`
+- **Folder:** `MySQL for Data Analysis/`
 - Learn and practice SQL queries commonly used in data analysis.
 - Topics covered include:
   - Data Filtering and Sorting
@@ -26,7 +26,7 @@ The repository is organized as follows:
   - Queries with explanations.
 
 ### **2. Python for Data Analysis**
-- **Folder:** `python_data_analysis/`
+- **Folder:** `Python for Data Analysis/`
 - Master Python libraries for data analysis and visualization.
 - Topics covered include:
   - Data manipulation with **pandas**
@@ -51,12 +51,12 @@ $ cd data-analyst-job-prep
 ```
 
 ### **Step 2: Explore the SQL Tutorials**
-1. Navigate to the `sql_data_analysis/` folder.
+1. Navigate to the `MySQL for Data Analysis/` folder.
 2. Open the SQL files with your favorite SQL editor.
 3. Follow the tutorial notes and run the queries against the provided datasets.
 
 ### **Step 3: Dive into Python for Data Analysis**
-1. Navigate to the `python_data_analysis/` folder.
+1. Navigate to the `Python for Data Analysis/` folder.
 2. Open the Jupyter notebooks (`.ipynb`) or Python scripts (`.py`) in your preferred IDE.
 3. Install the required Python libraries:
    ```bash
@@ -106,9 +106,9 @@ This project is licensed under the **GNU General Public License v2.0**. See the 
 ## Contact
 
 For any questions or feedback, feel free to reach out:
-- **Email:** [your-email@example.com](mailto:your-email@example.com)
+- **Email:** [hamad_as@outlook.com](mailto:hamad_as@outlook.com)
 - **GitHub Issues:** Open an issue in this repo
 
 ---
 
-Happy learning and best of luck with your job preparation! 🎉
+Happy learning, and let’s grow together on this journey of data analysis preparation! 🎉
