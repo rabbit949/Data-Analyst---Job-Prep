@@ -15,7 +15,7 @@ Group by occupation; # this will give us an error saying invalid use of group by
 # Lets see how we can use them
 SELECT occupation, avg(salary)
 FROM parks_and_recreation.employee_salary
-where occupation LIKE '%manager%' #filtered at the low level
+where occupation LIKE '%manager%' #filtered at the row level
 Group by occupation
 having avg(salary) > 75000; # filter at the aggregate function 
 # notice we get ocupation city manager with avg salary 90000
