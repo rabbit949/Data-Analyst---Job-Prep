@@ -31,6 +31,15 @@ from parks_and_recreation.employee_demographics
 group by gender
 having avg_age > 40;
 # this will change the name of the column from avg(age) to avg_age, we can name it whatever we want except for the reserved keywords, its like nameing a variable in programming language.
+# we don't actually need AS keyword, if we remove it. The qurey will work perfectly fine.
+Select gender, avg(age) avg_age 
+from parks_and_recreation.employee_demographics
+group by gender
+having avg_age > 40;
 
-
+-- NOTE: I like to use AS keyword for Aliasing becasue it help to keep track of name plus it is more readable this way.
+Select gender, avg(age) AS avg_age 
+from parks_and_recreation.employee_demographics
+group by gender
+having avg_age > 40;
  
