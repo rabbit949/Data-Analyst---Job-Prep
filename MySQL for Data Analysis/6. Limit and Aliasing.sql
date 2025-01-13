@@ -10,7 +10,7 @@ from parks_and_recreation.employee_demographics
 order by age desc
 limit 3; # this will get us the oldest 3 emplyees
 
-# there is also an additional parameter in limit which will specify the starting and number of row we want to select. e.g
+# there is also an additional parameter in limit which will specify the starting and number of row we want to select. e.g limit 2(excluded), 1
 # lets select only the last one in the above example,
 Select *
 from parks_and_recreation.employee_demographics
