@@ -1,8 +1,8 @@
-# LIMIT and ALISAING 
+-- LIMIT and ALISAING --
 # Limit specifies how many row we want in the output, 
 Select * from parks_and_recreation.employee_demographics; 
 # lets limit the number of rows to only 1st 3;
-
+-- LIMIT --
 Select * from parks_and_recreation.employee_demographics Limit 3; #its pretty straight forward but if we couple it with order by we can solve really complex problems, e.g lets find the oldest 3 employees in our table
 
 Select *
@@ -42,4 +42,8 @@ Select gender, avg(age) AS avg_age
 from parks_and_recreation.employee_demographics
 group by gender
 having avg_age > 40;
+
+
+-- End of Begineer Series -- \
+-- Tomorrow I will start Intermediate SQL --
  
