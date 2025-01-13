@@ -64,3 +64,5 @@ order by age, gender;  #here the only the age is sorted and the gender column do
 SELECT *
 FROM parks_and_recreation.employee_demographics
 order by 5, 4; 
+
+# if for some reason any column number comping before the order by column number is removed, it would effect the whole result and can lead to big mistakes. 
