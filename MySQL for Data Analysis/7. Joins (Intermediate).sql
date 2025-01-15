@@ -24,3 +24,16 @@ left join parks_and_recreation.employee_salary as sal
 select * from parks_and_recreation.employee_demographics as dem
 right join parks_and_recreation.employee_salary as sal
 	on dem.employee_id = sal.employee_id ;  # the result will show table with null values in table 1 on row 2
+    
+    
+-- Self Join --
+# self joins are basically used to tide 1 tab;e with it self, e.g a secret santa game lets have a look
+select * 
+from parks_and_recreation.employee_salary AS sal1
+join parks_and_recreation.employee_salary AS sal2
+	on sal1.employee_id = sal2.employee_id;
+# lets do some more changings and specify them as well.
+select * 
+from parks_and_recreation.employee_salary AS sal1
+join parks_and_recreation.employee_salary AS sal2
+	on sal1.employee_id +1 = sal2.employee_id;
