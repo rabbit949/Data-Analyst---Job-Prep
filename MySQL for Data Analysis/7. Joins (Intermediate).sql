@@ -33,7 +33,13 @@ from parks_and_recreation.employee_salary AS sal1
 join parks_and_recreation.employee_salary AS sal2
 	on sal1.employee_id = sal2.employee_id;
 # lets do some more changings and specify them as well.
-select * 
+select sal1.employee_id as santa_id,
+sal1.first_name as santa_first_name,
+sal1.last_name as santa_last_name,
+sal2.employee_id as emp_id,
+sal2.first_name as emp_first_name,
+sal2.last_name as emp_last_name
 from parks_and_recreation.employee_salary AS sal1
 join parks_and_recreation.employee_salary AS sal2
-	on sal1.employee_id +1 = sal2.employee_id;
+	on sal1.employee_id +1 = sal2.employee_id; 
+    #here we are specifiying what we want in our final result and notice we have next employee id as santa.
