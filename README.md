@@ -44,7 +44,16 @@ The repository is organized as follows:
 
 ## Useful Resources
 
-### ** 1. Data Analyst BootCamp on Youtube `https://youtube.com/playlist?list=PLUaB-1hjhk8FE_XZ87vPPSfHqb6OcM0cF&si=squCj4Mk0fViFO5Y`
+Explore these curated resources to deepen your understanding:
+
+### SQL Resources
+- [Mode SQL Tutorial](https://mode.com/sql-tutorial/) - Interactive SQL tutorials with practical examples.
+- [SQL Cheat Sheet](https://www.sqltutorial.org/sql-cheat-sheet/) - A handy reference for SQL syntax.
+
+### Python Resources
+- [pandas Documentation](https://pandas.pydata.org/docs/) - Comprehensive documentation for pandas.
+- [Matplotlib Tutorials](https://matplotlib.org/stable/tutorials/index.html) - Learn how to create beautiful visualizations with Matplotlib.
+
 ---
 
 ## How to Use
