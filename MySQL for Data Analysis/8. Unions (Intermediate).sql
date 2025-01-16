@@ -19,6 +19,18 @@ from parks_and_recreation.employee_salary;
 # NOTE: by default union is distinct, meaning it will remove all the duplicates from the output. But we can change that.
 Select first_name, last_name
 from parks_and_recreation.employee_demographics
-union all
+union
 Select first_name, last_name
 from parks_and_recreation.employee_salary; # Now its showing all the data under first and last name columns in both of our tables and make it single table.
+
+# Lets see a real life use case of union, lets say the company wants to cut their budget down by removing high paying and of above certain age employees, we can find the results simply by using union, lets see how
+Select first_name, last_name, 'OLD Male' as Label
+from parks_and_recreation.employee_demographics
+where age > 40
+union
+Select first_name, last_name, 'Highly Paid' as Label
+from parks_and_recreation.employee_salary
+where salary > 70000
+order by first_name, last_name; 
+
+#here's how we can find the result and secure our job, we are using mutliple select statements, where clause, order by and ofcourse unions.
