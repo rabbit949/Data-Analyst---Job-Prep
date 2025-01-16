@@ -42,6 +42,11 @@ The repository is organized as follows:
 
 ---
 
+## Useful Resources
+
+### ** 1. Data Analyst BootCamp on Youtube `https://youtube.com/playlist?list=PLUaB-1hjhk8FE_XZ87vPPSfHqb6OcM0cF&si=squCj4Mk0fViFO5Y`
+---
+
 ## How to Use
 
 ### **Step 1: Clone the Repository**
